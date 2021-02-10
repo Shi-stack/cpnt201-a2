@@ -1,0 +1,22 @@
+/*Reset Code*/
+body{
+  margin:0;
+}
+* {
+  box-sizing: border-box;
+}
+
+/*Basic Container*/
+
+.container  {
+  width: 90vw; /*Setting view point */
+  max-width: 1920px;
+  margin: auto;
+}
+
+img {
+  display: block;
+  width:100%;
+  margin: 3rem auto;
+  object-fit: cover; /* Image set to cover */
+}
